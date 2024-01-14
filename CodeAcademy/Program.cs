@@ -1,3 +1,8 @@
+using CodeAcademyBLL.Interfaces;
+using CodeAcademyBLL.Repsatory;
+using CodeAcademyDAL.Context;
+using Microsoft.EntityFrameworkCore;
+
 namespace CodeAcademy
 {
     public class Program
@@ -8,6 +13,12 @@ namespace CodeAcademy
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddDbContext<ApplicationDbContext>(
+          options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            builder.Services.AddScoped<IDepartment, DepartmentRebosatory>();
+            builder.Services.AddScoped<IEmployee, EmployeeRebosatory>();
 
             var app = builder.Build();
 

@@ -1906,19 +1906,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Training\\.nuget\\packages\\": {}
+    "C:\\Users\\ACER\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Training\\source\\repos\\CodeAcademy solution\\CodeAcademyDAL\\CodeAcademyDAL.csproj",
+      "projectUniqueName": "C:\\Users\\ACER\\Source\\Repos\\CodeAcProject\\CodeAcademyDAL\\CodeAcademyDAL.csproj",
       "projectName": "CodeAcademyDAL",
-      "projectPath": "C:\\Users\\Training\\source\\repos\\CodeAcademy solution\\CodeAcademyDAL\\CodeAcademyDAL.csproj",
-      "packagesPath": "C:\\Users\\Training\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Training\\source\\repos\\CodeAcademy solution\\CodeAcademyDAL\\obj\\",
+      "projectPath": "C:\\Users\\ACER\\Source\\Repos\\CodeAcProject\\CodeAcademyDAL\\CodeAcademyDAL.csproj",
+      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ACER\\Source\\Repos\\CodeAcProject\\CodeAcademyDAL\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Training\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1965,7 +1970,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

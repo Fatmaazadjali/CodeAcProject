@@ -4,14 +4,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CodeAcademy.Controllers
 {
-    public class DepartmentController : Controller
+    public class EmployeeControllers : Controller
     {
+        private readonly IEmployee _Employee;
 
-        private readonly IDepartment _department;
-        public IActionResult Index()
-        {
-            return View();
-        }
+        public EmployeeControllers(IEmployee employeerepo) {
+            _Employee = employeerepo;
+                }
+
+        
+        public IActionResult Index()  =>   View();
 
         public IActionResult Details(int? id)
         {
@@ -19,7 +21,7 @@ namespace CodeAcademy.Controllers
             {
                 return BadRequest();
             }
-            var emp = _department.Get(id.Value);
+            var emp = _Employee.Get(id.Value);
             return View(emp);
 
         }
@@ -28,13 +30,13 @@ namespace CodeAcademy.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(Department dep)
+        public IActionResult Create(Employee emp)
         {
             //if(dep == null)
             //{
             //    return BadRequest();
             //}
-            _department.Create(dep);
+            _Employee.Create(emp);
 
             return RedirectToAction("Index");
         }
@@ -42,7 +44,7 @@ namespace CodeAcademy.Controllers
 
         public IActionResult Update(int id)
         {
-            var emp = _department.Get(id);
+            var emp = _Employee.Get(id);
             return View(emp);
         }
 
@@ -51,7 +53,7 @@ namespace CodeAcademy.Controllers
         {
             if (ModelState.IsValid)
             {
-                _department.Update(emp);
+                _Employee.Update(emp);
                 return RedirectToAction("Index");
             }
             return View(emp);
@@ -59,10 +61,11 @@ namespace CodeAcademy.Controllers
 
         public IActionResult Delete(int id)
         {
-            var emp = _department.Get(id);
-            _department.Delete(emp);
+            var emp = _Employee.Get(id);
+            _Employee.Delete(emp);
             return RedirectToAction("Index");
         }
+
 
     }
 }
