@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CodeAcademyBLL.Repsatory
 {
-    public class EmployeeRebosatory<T> : GenaricReposatory<Employee>, IEmployee
+    public class EmployeeRebosatory : GenaricReposatory<Employee>, IEmployee
     {
         private readonly ApplicationDbContext _context;
 

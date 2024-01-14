@@ -30,10 +30,7 @@ namespace CodeAcademy.Controllers
         [HttpPost]
         public IActionResult Create(Department dep)
         {
-            //if(dep == null)
-            //{
-            //    return BadRequest();
-            //}
+            
             _department.Create(dep);
 
             return RedirectToAction("Index");
@@ -47,7 +44,7 @@ namespace CodeAcademy.Controllers
         }
 
         [HttpPost]
-        public IActionResult Update(Employee emp)
+        public IActionResult Update(Department emp)
         {
             if (ModelState.IsValid)
             {

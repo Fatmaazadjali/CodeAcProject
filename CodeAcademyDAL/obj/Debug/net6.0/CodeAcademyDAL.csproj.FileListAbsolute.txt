@@ -1,0 +1,12 @@
+C:\Users\Training\Source\Repos\CodeAcProject\CodeAcademyDAL\bin\Debug\net6.0\CodeAcademyDAL.deps.json
+C:\Users\Training\Source\Repos\CodeAcProject\CodeAcademyDAL\bin\Debug\net6.0\CodeAcademyDAL.dll
+C:\Users\Training\Source\Repos\CodeAcProject\CodeAcademyDAL\bin\Debug\net6.0\CodeAcademyDAL.pdb
+C:\Users\Training\Source\Repos\CodeAcProject\CodeAcademyDAL\obj\Debug\net6.0\CodeAcademyDAL.csproj.AssemblyReference.cache
+C:\Users\Training\Source\Repos\CodeAcProject\CodeAcademyDAL\obj\Debug\net6.0\CodeAcademyDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Training\Source\Repos\CodeAcProject\CodeAcademyDAL\obj\Debug\net6.0\CodeAcademyDAL.AssemblyInfoInputs.cache
+C:\Users\Training\Source\Repos\CodeAcProject\CodeAcademyDAL\obj\Debug\net6.0\CodeAcademyDAL.AssemblyInfo.cs
+C:\Users\Training\Source\Repos\CodeAcProject\CodeAcademyDAL\obj\Debug\net6.0\CodeAcademyDAL.csproj.CoreCompileInputs.cache
+C:\Users\Training\Source\Repos\CodeAcProject\CodeAcademyDAL\obj\Debug\net6.0\CodeAcademyDAL.dll
+C:\Users\Training\Source\Repos\CodeAcProject\CodeAcademyDAL\obj\Debug\net6.0\refint\CodeAcademyDAL.dll
+C:\Users\Training\Source\Repos\CodeAcProject\CodeAcademyDAL\obj\Debug\net6.0\CodeAcademyDAL.pdb
+C:\Users\Training\Source\Repos\CodeAcProject\CodeAcademyDAL\obj\Debug\net6.0\ref\CodeAcademyDAL.dll
